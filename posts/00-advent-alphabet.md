@@ -1,6 +1,7 @@
 ---
-title: 'Introduction'
+title: 'Project Idea: Advent Alphabet'
 date: '2020-11-27'
+tag: 'project-idea'
 ---
 
 # Introduction
@@ -17,7 +18,7 @@ date: '2020-11-27'
 
 ## Tasks
 
--   [] single page template over MDX?
+-   [ ] single page template over MDX?
 -   [x] Tailwind CSS or Chakra
--   [] MDX
--   [] Framer Motion / React Spring / CSS Transitions
+-   [ ] MDX
+-   [ ] Framer Motion / React Spring / CSS Transitions
