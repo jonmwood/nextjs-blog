@@ -14,7 +14,7 @@ export default function Layout({
 	home?: boolean
 }) {
 	return (
-		<div className={styles.container}>
+		<div className="w-3/4 mx-auto">
 			<Head>
 				<link rel="icon" href="/favicon.ico" />
 				<meta
