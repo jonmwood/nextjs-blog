@@ -35,7 +35,7 @@ export default function Home({
 				<ul className="">
 					{allPostsData.map(
 						({ id, date, title, published }) =>
-							published && (
+							published ? (
 								<li
 									className="text-l font-semibold pt-4 text-gray-600"
 									key={id}>
@@ -47,7 +47,7 @@ export default function Home({
 										<Date dateString={date} />
 									</small>
 								</li>
-							)
+							) : null
 					)}
 				</ul>
 			</section>
